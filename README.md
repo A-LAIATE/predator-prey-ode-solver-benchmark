@@ -1,6 +1,6 @@
 # Predator–Prey ODE Solver Benchmark
 
-A short, self-contained benchmarking report using *Jupyter Notebook*, comparing numerical methods for solving a _Predator–Prey or Lotka–Volterra_ system of ODEs, with a recommendation based on accuracy and runtime efficiency.
+  A short, self-contained benchmarking report using *Jupyter Notebook*, comparing numerical methods for solving a _Predator–Prey or Lotka–Volterra_ system of ODEs, with a recommendation based on accuracy and runtime efficiency.
 
 
 
@@ -42,19 +42,19 @@ Two test cases are used:
 
 _**Runge–Kutta (4th order)**_
 
-A well-balanced choice that delivers dependable performance with reasonable computational cost, making it suitable as a general-purpose default.
+  A well-balanced choice that delivers dependable performance with reasonable computational cost, making it suitable as a general-purpose default.
 
 
 _**SSPRK3 (3rd order)**_
 
-Recommended when higher-fidelity results are required, particularly at smaller time steps at the expense of increased computational effort.
+  Recommended when higher-fidelity results are required, particularly at smaller time steps at the expense of increased computational effort.
 
 
 _**Midpoint (RK2)**_
 
-The fastest option, but less accurate; best suited for quick exploratory runs or instructional/early-stage analysis where a concise overview is sufficient.
+  The fastest option, but less accurate; best suited for quick exploratory runs or instructional/early-stage analysis where a concise overview is sufficient.
 
 
 **Recommendation**
 
-The three methods are sufficient for the current scope and decision-making. For stronger confidence, further research and inspection or validation is recommended such as a) broader parameter sweeps; b) additional solvers; and c) more rigorous error and stability checks, before using the approach in wider or higher-stakes modelling contexts.
+  The three methods are sufficient for the current scope and decision-making. For stronger confidence, further research and inspection or validation is recommended such as a) broader parameter sweeps; b) additional solvers; and c) more rigorous error and stability checks, before using the approach in wider or higher-stakes modelling contexts.
