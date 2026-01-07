@@ -4,7 +4,7 @@ A short, self-contained benchmarking report (Jupyter Notebook) comparing numeric
 
 
 ---
-## Problem (what this notebook solves)
+## Problem
 
 
 A predator–prey model for prey `x(t)` and predator `y(t)`:
@@ -18,7 +18,7 @@ Two test cases are used:
 
 
 ---
-## Methods compared (used in this notebook)
+## Methods compared 
 
 **Runge–Kutta (4th order):** *(selected via `solver(...)` in `solvers.py` as `"Runge-Kutta"`)*  
 
