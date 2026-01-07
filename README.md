@@ -40,17 +40,17 @@ Two test cases are used:
 **Results**
 
 
-_**Runge–Kutta (4th order).**_
+_**Runge–Kutta (4th order)**_
 
 A well-balanced choice that delivers dependable performance with reasonable computational cost, making it suitable as a general-purpose default.
 
 
-_**SSPRK3 (3rd order):**_
+_**SSPRK3 (3rd order)**_
 
 Recommended when higher-fidelity results are required, particularly at smaller time steps at the expense of increased computational effort.
 
 
-_**Midpoint (RK2).** _
+_**Midpoint (RK2)** _
 
 The fastest option, but less accurate; best suited for quick exploratory runs or instructional/early-stage analysis where a concise overview is sufficient.
 
