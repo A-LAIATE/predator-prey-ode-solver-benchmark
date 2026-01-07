@@ -50,12 +50,12 @@ Two test cases are used:
 
 A well-balanced choice that delivers dependable performance with reasonable computational cost, making it suitable as a general-purpose default.
 **SSPRK3 (3rd order).** 
-Recommended when higher-fidelity results are required, particularly at smaller time steps—at the expense of increased computational effort.
+Recommended when higher-fidelity results are required, particularly at smaller time steps at the expense of increased computational effort.
 
 
 ***SSPRK3 (3rd order):***
 
-Recommended when higher-fidelity results are required—particularly at smaller time steps—at the expense of increased computational effort.
+Recommended when higher-fidelity results are required, particularly at smaller time steps at the expense of increased computational effort.
 
 
 ***Midpoint (RK2).*** 
