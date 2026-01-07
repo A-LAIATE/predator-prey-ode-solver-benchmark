@@ -75,7 +75,6 @@ def solver(
     """
     Solve the differential equation(s).
 
-
     Solve the differential equation specified by
 
     y'(t) = rhs(t, y) subject to y(t_0) = y_0.
