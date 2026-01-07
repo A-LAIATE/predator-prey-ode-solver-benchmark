@@ -19,20 +19,13 @@ Two test cases are used:
 
 ## Methods compared (used in this notebook)
 
-**Runge–Kutta (4th order)** 
-
-*(selected via `solver(...)` in `solvers.py` as `"Runge-Kutta"`)*  
+**Runge–Kutta (4th order):** *(selected via `solver(...)` in `solvers.py` as `"Runge-Kutta"`)*  
 
 
-**SSPRK3 (3rd order)** 
-
-*(selected via `solver(...)` in `solvers.py` as `"SSPRK3"`)* 
+**SSPRK3 (3rd order):** *(selected via `solver(...)` in `solvers.py` as `"SSPRK3"`)* 
 
 
-**Midpoint method (2nd order / RK2)** 
-
-*(implemented directly in the notebook as a custom baseline)*  
-
+**Midpoint method (2nd order / RK2):** *(implemented directly in the notebook as a custom baseline)*  
 
 
 
