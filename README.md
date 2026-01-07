@@ -53,6 +53,11 @@ A well-balanced choice that delivers dependable performance with reasonable comp
 Recommended when higher-fidelity results are required, particularly at smaller time steps—at the expense of increased computational effort.
 
 
+***SSPRK3 (3rd order):***
+
+Recommended when higher-fidelity results are required—particularly at smaller time steps—at the expense of increased computational effort.
+
+
 ***Midpoint (RK2).*** 
 
 The fastest option, but less accurate; best suited for quick exploratory runs or instructional/early-stage analysis where a concise overview is sufficient.
