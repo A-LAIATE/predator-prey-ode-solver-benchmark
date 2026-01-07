@@ -1,11 +1,10 @@
 # Predator–Prey ODE Solver Benchmark
 
-A short, self-contained benchmarking report (Jupyter Notebook) comparing numerical methods for solving a predator–prey (Lotka–Volterra) system of ODEs, with a recommendation based on accuracy and runtime efficiency.
+A short, self-contained benchmarking report using *Jupyter Notebook*, comparing numerical methods for solving a *(predator–prey or Lotka–Volterra)* system of ODEs, with a recommendation based on accuracy and runtime efficiency.
 
 
----
+
 ## Problem
-
 
 A predator–prey model for prey `x(t)` and predator `y(t)`:
 
@@ -13,28 +12,24 @@ dx/dt = αx − βxy + f(t)
 dy/dt = δxy − γy + g(t)
 
 Two test cases are used:
-1) **Forced case with exact solution** (used to measure numerical error against ground truth).  
-2) **Unforced case** where the solution should be periodic and population maxima should remain consistent (used as a qualitative/behavioral check).
+1. **Forced case with exact solution.** Used to measure numerical error against ground truth.  
+2. **Unforced case.** Where the solution should be periodic and population maxima should remain consistent. **Note.** _Used as a qualitative/behavioral check._
 
 
----
+
 ## Methods compared 
 
-**Runge–Kutta (4th order):** *(selected via `solver(...)` in `solvers.py` as `"Runge-Kutta"`)*  
+1. **Runge–Kutta (4th order):** *Selected via `solver(...)` in `solvers.py` as `"Runge-Kutta"`*  
+2. **SSPRK3 (3rd order):** *Selected via `solver(...)` in `solvers.py` as `"SSPRK3"`* 
+3. **Midpoint method (2nd order / RK2):** *(implemented directly in the notebook as a custom baseline)*  
 
 
-**SSPRK3 (3rd order):** *(selected via `solver(...)` in `solvers.py` as `"SSPRK3"`)* 
 
-
-**Midpoint method (2nd order / RK2):** *(implemented directly in the notebook as a custom baseline)*  
-
-
----
 ## Evaluation approach
 
-- Run each method over a sequence of step sizes up to a specified final time `T`.
+1. Run each method over a sequence of step sizes up to a specified final time `T`.
 
-- Compare:
+2. Compare:
   - Accuracy (e.g., error vs exact solution in test case 1)
   - Computational efficiency (wall-clock runtime)
   - Qualitative stability/behavior in the periodic test case
