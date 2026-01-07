@@ -40,27 +40,6 @@ Two test cases are used:
   - Qualitative stability/behavior in the periodic test case
 
 
-
-## Summary (results & recommendation)
-
-**Results** 
-
-***Accuracy (forced case with exact solution):*** 
-
-Runge–Kutta (4th order) achieved the lowest worst-case error across all tested step sizes. SSPRK3 was consistently less accurate, and the Midpoint (RK2) baseline had the largest errors—especially at coarser step sizes.
-
-
-***Stability (unforced periodic case):*** 
-
-Runge–Kutta and SSPRK3 preserved near-consistent prey/predator maxima for small-to-moderate step sizes. The Midpoint method increasingly distorted the oscillation amplitudes as the step size increased.
-
-
-**Recommendation:** 
-
-Use **Runge–Kutta (4th order)** as the default for the best accuracy–cost balance. Use **SSPRK3** when you need faster runs and can tolerate reduced accuracy. Keep **Midpoint (RK2)** as a fast baseline/educational comparator rather than a primary solver.
-
-
-
 ---
 ## Summary
 
@@ -71,7 +50,7 @@ Use **Runge–Kutta (4th order)** as the default for the best accuracy–cost ba
 
 A well-balanced choice that delivers dependable performance with reasonable computational cost, making it suitable as a general-purpose default.
 **SSPRK3 (3rd order).** 
-Recommended when higher-fidelity results are required—particularly at smaller time steps—at the expense of increased computational effort.
+Recommended when higher-fidelity results are required, particularly at smaller time steps—at the expense of increased computational effort.
 
 
 ***Midpoint (RK2).*** 
