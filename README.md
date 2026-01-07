@@ -34,7 +34,6 @@ Two test cases are used:
   - Qualitative. _Stability and behavior in the periodic test case._
 
 
----
 ## Summary
 
 **Results**
