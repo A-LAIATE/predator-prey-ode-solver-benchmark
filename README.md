@@ -50,7 +50,7 @@ _**SSPRK3 (3rd order)**_
 Recommended when higher-fidelity results are required, particularly at smaller time steps at the expense of increased computational effort.
 
 
-_**Midpoint (RK2)** _
+_**Midpoint (RK2)**_
 
 The fastest option, but less accurate; best suited for quick exploratory runs or instructional/early-stage analysis where a concise overview is sufficient.
 
