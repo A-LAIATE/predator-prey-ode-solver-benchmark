@@ -63,7 +63,4 @@ The fastest option, but less accurate; best suited for quick exploratory runs or
 
 **Recommendation**
 
-
-***Current sufficiency and next steps.*** 
-
 The three methods are sufficient for the current scope and decision-making. For stronger confidence, further research and inspection/validation is recommended (e.g., broader parameter sweeps, additional solvers, and more rigorous error/stability checks) before using the approach in wider or higher-stakes modelling contexts.
