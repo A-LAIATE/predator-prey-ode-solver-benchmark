@@ -1,7 +1,6 @@
 # Predator–Prey ODE Solver Benchmark
 
-  A short, self-contained benchmarking report using *Jupyter Notebook*, comparing numerical methods for solving a _Predator–Prey or Lotka–Volterra_ system of ODEs, with a recommendation based on accuracy and runtime efficiency.
-
+  A short, self-contained benchmarking report using *Jupyter Notebook*, comparing numerical methods for solving a _Predator–Prey or Lotka–Volterra_ system of Ordinary Differential Equations (ODEs), with a recommendation based on accuracy and runtime efficiency.
 
 
 ## Problem
